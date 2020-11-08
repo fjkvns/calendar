@@ -1,0 +1,66 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#table1 {
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-radius: 8px;
+    padding-right: 278px;
+    background-color: rgb(252, 44, 7);
+    color: white;
+    height: 325px;
+}
+
+#date {
+    font-weight: bold;
+    font-size: 120px;
+    text-align: start;
+}
+
+#month {
+    
+    font-size: 100px;
+}
+
+td:not(#month) {
+    width: 80px;
+    height: 30px;
+    border: 2px solid black;
+    height: 40px;
+    text-align: center;
+}
+
+.month_cal {
+    color: rgb(252, 44, 7);
+    padding-top: 50px;
+}
+
+#holiday {
+    color: rgb(252, 44, 7);
+}
+
+#table2 {
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.prevmon {
+    color: rgb(161, 161, 161);
+}
+
+#skrepa1 {
+    background-color: white;
+    height: 40px;
+    width: 7px;
+    border-radius: 60px;
+    box-shadow: 0 3.5px rgb(95, 95, 95);
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -20px;
+    border: 0.01px solid gray;
+}
